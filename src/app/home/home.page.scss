@@ -1,0 +1,78 @@
+/* home.page.scss */
+
+ion-header {
+  --ion-background-color: #3880ff;
+  --ion-color: #ffffff;
+}
+
+ion-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ion-content {
+  --ion-background-color: #f4f4f4;
+}
+
+ion-item {
+  --ion-background-color: #ffffff;
+  --ion-padding-start: 16px;
+  --ion-padding-end: 16px;
+  --ion-padding-top: 12px;
+  --ion-padding-bottom: 12px;
+  --ion-color: #000000;
+}
+
+ion-label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+ion-select {
+  --ion-color: #000000;
+}
+
+ion-input,
+ion-select,
+ion-textarea {
+  border-radius: 4px;
+  border: 1px solid #c4c4c4;
+  padding: 8px;
+}
+
+ion-button {
+  margin-top: 16px;
+  --ion-background-color: #3880ff;
+  --ion-color: #050505;
+}
+
+#directEmailBtn {
+  --ion-background-color: #fd0a0a;
+}
+
+.whatsapp-link {
+  color: green;
+  text-decoration: none;
+}
+
+.whatsapp-link:hover {
+  color: darkgreen;
+}
+
+.telegram-link {
+  color: blue;
+  text-decoration: none;
+}
+
+.telegram-link:hover {
+  color: darkblue;
+}
+
+.email-link {
+  color: red;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  color: darkred;
+}

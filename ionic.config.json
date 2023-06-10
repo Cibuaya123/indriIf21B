@@ -1,0 +1,7 @@
+{
+  "name": "projectSendiri",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Form KTP
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label position="stacked">NIK</ion-label>
+    <ion-input type="number" [(ngModel)]="nik"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Nama</ion-label>
+    <ion-input type="text" [(ngModel)]="nama"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Tempat Tanggal Lahir</ion-label>
+    <ion-input type="text" [(ngModel)]="tempatTanggalLahir"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Jenis Kelamin</ion-label>
+    <ion-select [(ngModel)]="jenisKelamin">
+      <ion-select-option value="Laki-laki">Laki-laki</ion-select-option>
+      <ion-select-option value="Perempuan">Perempuan</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Alamat</ion-label>
+    <ion-textarea [(ngModel)]="alamat"></ion-textarea>
+  </ion-item>
+
+  <ion-button (click)="submitForm()">Simpan</ion-button>
+
+  <ion-button expand="full" color="whatsapp" href="https://api.whatsapp.com/send?phone=085711761792&text=NIK20%25Nama%20Tempat%20Tanggal%20Lahir%20Jenis%20Kelamin%20Alamat%20Agama%20pekerjaan">Direct WhatsApp</ion-button>
+
+  <ion-button expand="full" color="telegram" href="https://t.me/Cibuaya123?text=NIK%20%0A%20Nama%3A%20%0A%20Tempat%20Tanggal%20Lahir%3A%20%0A%20Jenis%20Kelamin%3A%20%0A%20Alamat%3A%20%0A%20Agama%3A%20%0A%20Pekerjaan%3A">Direct Telegram</ion-button>
+
+  <ion-button expand="full" color="email" href="mailto:ir09222002@gmail.com?subject=Form%20KTP&body=NIK%20%0A%20Nama%3A%20%0A%20Tempat%20Tanggal%20Lahir%3A%20%0A%20Jenis%20Kelamin%3A%20%0A%20Alamat%3A%20%0A%20Agama%3A%20%0A%20Pekerjaan%3A">Direct Email</ion-button>
+
+</ion-content>
